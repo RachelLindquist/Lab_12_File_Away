@@ -31,6 +31,7 @@ public class Main {
             }
             reader.close();
             //print info
+            System.out.println("You chose to open the file " + openedFile.getName());
             System.out.println("In your file there are " + numLines + " lines, "
                     + numWords + " words, and " + numChar + " characters");
         } catch (FileNotFoundException e) {
